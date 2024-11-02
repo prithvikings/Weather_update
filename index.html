@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quick Weather Update</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet"/>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="search-box">
+                <input type="text" class="input-box" placeholder="Enter City Name">
+                <button
+                id="searchBtn" class="ri-search-line"></button > <!-- Added text for clarity -->
+            </div>
+        </div>
+
+        <div class="location-not-found">
+            <h2>Location Not Found</h2>
+            <img src="./assets/404.png" alt="404_Error">
+        </div>
+
+
+        <div class="weather-body">
+            <img src="./assets/cloud.png" alt="weather-image" class="weather-img">
+            <div class="weather-box">
+                <p class="temprature">0<sup>°C</sup></p>
+                <p class="description">Light rain</p>
+            </div>
+            <div class="weather-details">
+                <div class="humidity">
+                    <i class="ri-drop-fill"></i>
+                    <div class="text">
+                        <span id="humidity">45%</span>
+                        <p>Humidity</p>
+                    </div> <!-- Closing div for humidity -->
+                </div>
+                <div class="wind">
+                    <i class="ri-windy-line"></i>
+                    <div class="text">
+                        <span id="wind-speed">12km/H</span>
+                        <p>Wind Speed</p> <!-- Corrected casing for consistency -->
+                    </div> <!-- Closing div for wind -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
