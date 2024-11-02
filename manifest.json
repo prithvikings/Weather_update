@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "Quick Weather Update",
+    "version": "1.0",
+    "description": "Get quick weather updates for your city.",
+    "action": {
+        "default_popup": "index.html"
+    },
+    "permissions": [
+        "activeTab"
+    ]
+}

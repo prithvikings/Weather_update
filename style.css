@@ -26,7 +26,7 @@ body{
     background-color: #fff;
     border-radius: 12px;
     padding: 28px;
-
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .search-box{
@@ -60,13 +60,13 @@ body{
     background-color: #e6f5fb;
     border-radius: 50%;
     cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 .search-box button:hover{
     color: #fff;
     background-color: #ababab;
     transform: scale(1.1);
-    transition:  ease-in-out;
 }
 
 .weather-body img{

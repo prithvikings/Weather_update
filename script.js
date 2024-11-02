@@ -26,7 +26,7 @@ const checkweather=async (city)=>{
         temperature.innerHTML=`${Math.round(data.main.temp-273.15)}°C`;
         description.innerHTML=`${data.weather[0].description}`;
         humidity.innerHTML=`${data.main.humidity}%`;
-        wind_speed.innerHTML=`${data.wind.speed} Km/H`;
+        wind_speed.innerHTML=`${Math.round(data.wind.speed)} km/h`;
 
         const weather=data.weather[0].main;
         if(weather=="Clouds"){
@@ -53,7 +53,12 @@ const checkweather=async (city)=>{
 }
 
 searchBtn.addEventListener('click', () => {
-    checkweather(inputBox.value);
+    const city = inputBox.value.trim();
+    if (city) {
+        checkweather(city);
+    } else {
+        alert("Please enter a city name."); // Alert if the input is empty
+    }
 });
 
 
