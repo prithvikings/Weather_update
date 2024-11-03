@@ -52,6 +52,18 @@ const checkweather=async (city)=>{
     }
 }
 
+
+inputBox.addEventListener("keypress", (e) => {
+    if (e.key === "Enter") {
+        const city = inputBox.value.trim();
+        if (city) {
+            checkweather(city);
+        } else {
+            alert("Please enter a city name."); // Alert if the input is empty
+        }
+    }
+});
+
 searchBtn.addEventListener('click', () => {
     const city = inputBox.value.trim();
     if (city) {

@@ -4,7 +4,7 @@
     box-sizing: border-box;
     border: none;
     outline: none;
-    font-family: poppins;
+    font-family: gilroy;
 }
 html, body {
     height: 100%;
@@ -23,7 +23,7 @@ body{
 .container{
     width: 400px;
     height: min-content;
-    background-color: #fff;
+    background-color: #1B262C;
     border-radius: 12px;
     padding: 28px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -45,7 +45,9 @@ body{
     color: #000;
     padding: 12px 16px;
     border-radius: 14px;
+    /* background-color: #dadada; */
     background-color: #e6f5fb;
+
 }
 
 .search-box input::placeholder{
@@ -88,7 +90,7 @@ body{
 .weather-box .temprature{
     font-size: 40px;
     font-weight: 600;
-    color: #000;
+    color: #dadada;
     position: relative;
 }
 
@@ -102,6 +104,7 @@ body{
     font-size: 20px;
     font-weight: 600;
     text-transform: capitalize;
+    color: #dadada;
 }
 
 .weather-details{
@@ -126,11 +129,13 @@ body{
 }
 
 .weather-details i{
+    color: #dadada;
     font-size: 30px;
 }
 
 .weather-details .text{
     margin-left: 10px;
+    color: #dadada;
     font-size: 16px;
 }
 

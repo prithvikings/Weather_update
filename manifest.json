@@ -5,6 +5,11 @@
     "description": "Get quick weather updates for your city.",
     "action": {
         "default_popup": "index.html"
+        },
+    "icons": {
+        "16": "assets/icon1.png",
+        "48": "assets/icon1.png",
+        "128": "assets/icon1.png"
     },
     "permissions": [
         "activeTab"
