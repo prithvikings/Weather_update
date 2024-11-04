@@ -53,7 +53,7 @@ const checkweather=async (city)=>{
 }
 
 
-inputBox.addEventListener("keypress", (e) => {
+inputBox.addEventListener("keydown", (e) => {
     if (e.key === "Enter") {
         const city = inputBox.value.trim();
         if (city) {
