@@ -79,6 +79,7 @@ const WeatherApp = () => {
           className="bg-[#e6f5fb] rounded-full w-12 h-12 text-black hover:bg-[#ababab] hover:text-white transition-colors duration-300 transform-gpu"
           onClick={handleSearch}
         >
+          
           <SearchIcon />
         </button>
       </div>
