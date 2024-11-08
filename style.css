@@ -20,14 +20,14 @@ body{
     background-color: #000;
 }
 
-.container{
+ .container{
     width: 400px;
     height: min-content;
     background-color: #1B262C;
-    border-radius: 12px;
+    border-radius: 12px; 
     padding: 28px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-}
+} 
 
 .search-box{
     width: 100%;

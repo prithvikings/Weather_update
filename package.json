@@ -1,0 +1,16 @@
+{
+  "name": "weather",
+  "version": "1.0.0",
+  "description": "A simple weather application and chrome extension that provides real-time weather updates based on city input. The application utilizes the OpenWeatherMap API to fetch weather data and displays current temperature, humidity, and wind speed.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "build": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.14"
+  }
+}
