@@ -1,5 +1,6 @@
 # Quick Weather Update
 
+
 A simple weather application and chrome extension that provides real-time weather updates based on city input. The application utilizes the OpenWeatherMap API to fetch weather data and displays current temperature, humidity, and wind speed.
 
 ## Features
